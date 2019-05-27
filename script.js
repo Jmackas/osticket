@@ -8,6 +8,11 @@ function selectTopic() {
         document.getElementById("topicId").selectedIndex = "2";
     }
 
+    // If user came from the EIT SharePoint site
+    if (document.referrer == "https://eittraining.sharepoint.com/sites/staff-eit") {
+         document.getElementById("topicId").selectedIndex = "1";
+    }
+
 
     // Refresh the module with the updated content (Taken from an in-built script)
     document.getElementById("topicId").onchange("click", function() {
