@@ -13,8 +13,8 @@ function selectTopic() {
     document.getElementById("topicId").selectedIndex = "2";
   }
 
-
-
+  
+ document.querySelector("body").insertAdjacentHTML('afterend', '<link href="https://jmackas.github.io/osticket/style.css" rel="stylesheet">');
 
   // Refresh the module with the updated content (Taken from an in-built script)
   document.getElementById("topicId").onchange("click", function () {
