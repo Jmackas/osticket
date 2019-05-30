@@ -14,7 +14,7 @@ function selectTopic() {
   }
 
   
- document.querySelector("body").insertAdjacentHTML('afterend', '<link href="https://jmackas.github.io/osticket/style.css" rel="stylesheet">');
+ document.querySelector("body").insertAdjacentHTML('afterend', '<link href="https://jmackas.github.io/osticket/styles.css" rel="stylesheet">');
 
   // Refresh the module with the updated content (Taken from an in-built script)
   document.getElementById("topicId").onchange("click", function () {
